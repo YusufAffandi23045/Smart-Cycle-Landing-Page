@@ -244,25 +244,73 @@ section {
 .footer {
   background: #436E44;
   color: white;
-  padding: 40px 8%;
+  padding: 50px 8%;
 }
 
 .footer-grid {
   display: grid;
   grid-template-columns: 1.5fr 1fr 1fr 1fr;
-  gap: 30px;
+  gap: 40px;
 }
 
-.footer a {
-  color: #ddd;
+.footer-grid div:first-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-grid a {
+  display: block;
   text-decoration: none;
-  font-size: 14px;
+  color: #ddd;
+  margin-bottom: 6px;
+  transition: 0.3s;
 }
 
-.footer a:hover {
+.footer-grid a:hover {
   color: #2ecc71;
+  transform: translateX(3px);
 }
 
+.footer-grid p {
+  margin-top: 8px;
+}
+
+.footer-grid h4 {
+  margin-bottom: 10px;
+}
+
+.footer-grid p {
+  margin-bottom: 6px;
+  color: #ddd;
+}
+
+.footer-brand .copyright {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #ccc;
+}
+
+.highlight {
+  color: #2ecc71;
+  font-weight: 500;
+}
+
+.social-icons {
+  margin-top: 15px;
+  display: flex;
+  gap: 12px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: #2ecc71;
+  transform: translateY(-3px);
+}
 /* responsive */
 @media (max-width: 768px) {
   .hero {
