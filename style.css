@@ -222,6 +222,7 @@ section {
 /* download */
 .download {
   padding: 70px 8%;
+  background: linear-gradient(90deg, white 0%, #E8F4D3 100%);
 }
 
 .download-box {
