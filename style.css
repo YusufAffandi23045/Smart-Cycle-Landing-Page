@@ -170,6 +170,23 @@ section {
   transform: translateY(-3px);
 }
 
+.stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 40px;
+}
+
+.stat-item {
+  text-align: center;
+}
+
+.stat-item i {
+  font-size: 28px;
+  color: #2ecc71;
+  margin-bottom: 8px;
+}
+
 /* fitur */
 .fitur {
   padding: 70px 8%;
